@@ -1,5 +1,5 @@
 # base image
-FROM ubuntu:14.04
+FROM ubuntu:18.04
 # install dependencies
 RUN apt-get -y update && apt-get -y upgrade
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q python-all python-pip
